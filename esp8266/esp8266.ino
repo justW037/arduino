@@ -8,7 +8,7 @@
 const char* ssid = "Nha 17E 2.4G";
 const char* password = "0389349639";
 
-const char* serverAddress = "http://192.168.1.30/demo/postdemo.php";  // Thay thế bằng địa chỉ máy chủ của bạn
+const char* serverAddress = "http://192.168.1.10/demo/postdemo.php"; 
 
 WiFiClient client;
 
