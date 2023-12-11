@@ -1,7 +1,7 @@
 <?php
 include('config.php');
 
-$chartSql = "SELECT * FROM temperature_data ORDER BY id DESC LIMIT 20";
+$chartSql = "SELECT * FROM temperature_data ORDER BY id DESC LIMIT 1";
 $chartResult = $conn->query($chartSql);
 
 $chartData = array();
