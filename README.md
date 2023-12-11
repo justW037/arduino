@@ -1,1 +1,1 @@
-install.php(to create db if not exist) -> esp8266.ino(get data from sensor and send to postdemo) -> postdemo.php(get data from esp8266 and insert to db) -> view.php (get data from db and display)
+install.php(để tạo db nếu không tồn tại) -> config.php(kết nối đến cơ sở dữ liệu) -> Esp8266.ino(lấy dữ liệu từ cảm biến và gửi tới postdemo) -> postdemo.php(lấy dữ liệu từ Wemos gửi lên và insert vào database) -> getData.php( lấy dữ liệu từ database và gửi đến view) ->view.html (lấy dữ liệu được gửi đến và hiển thị).
